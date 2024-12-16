@@ -1,0 +1,31 @@
+.myspinner {
+   height: 100vh;
+   width: 100vw;
+   display:none;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color:#000;
+   z-index:15011;
+   position:fixed;
+   opacity: 0.7;
+   top:0;
+}
+
+#error-status {
+   width:80vw;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index : 14001;
+   position:fixed;
+   bottom:4vh;
+   left:10vw;
+}
+
+#error-status .error-text {
+   max-height:40vh;
+   overflow: auto;
+   text-align: center;
+}
